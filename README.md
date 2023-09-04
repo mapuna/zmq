@@ -1,4 +1,6 @@
-# Simple Demo of 0MQ in PAIR mode.
+# 0MQ - Simple Demos
+
+## PAIRed mode
 
 1. The CPP code reads *one* image from the disk and sends it over a socket in `PAIR` mode as JPEG bytes. Compile it as follows (with OpenCV4 on an Ubuntu system):
 ```
