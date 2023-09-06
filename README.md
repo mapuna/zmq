@@ -15,4 +15,7 @@ Files in the subdir: [pair](pair)
    it on your own for more esoteric usage.
 2. The receiver is in python with `opencv`, `numpy` and `pyzmq` 
    requirements. It keeps waiting for data to apper on the port it 
-   connected. Once the data is available, it deocdes and displays it. 
+   connected. Once the data is available, it deocdes and displays it.
+
+## REQ_REP Mode
+Files in the subdir: [req_reply](req_reply)

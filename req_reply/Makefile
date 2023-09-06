@@ -4,9 +4,13 @@ FLAGS = -std=c++17 -ggdb -Wall -Wextra \
 		`pkg-config --cflags --libs opencv4` \
 		`pkg-config --cflags --libs libzmq`
 
-pair_send: pair_send.cpp
+rep_server: server.cpp
+	$(CC) -o $@ $< $(FLAGS)
+
+req_client: client.cpp
 	$(CC) -o $@ $< $(FLAGS)
 
 .PHONY: clean
+
 clean:
-	rm -f pair_send
+	rm -f rep_server req_client
