@@ -19,3 +19,6 @@ Files in the subdir: [pair](pair)
 
 ## REQ_REP Mode
 Files in the subdir: [req_reply](req_reply)
+
+## PUB_SUB
+Files in the subdir: [pub_sub](pub_sub)
